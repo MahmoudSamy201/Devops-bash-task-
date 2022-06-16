@@ -1,7 +1,9 @@
 # Devops-bash-task-
+
 bash script for DevOps Task
 
 1.Scripting task
+
 Write a Bash shell or a python script which can:
 
 ● Process a text file which has users and their properties in each line.
