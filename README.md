@@ -17,8 +17,13 @@ next user.
 
 
 The content of the source text file:
+
 John john@domain.com 325
+
 Susan 510
+
 Jane jane@domain.com 131
+
 Karl karl@domain.com
+
 Bert bert@localhost 150
