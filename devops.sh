@@ -7,7 +7,7 @@ do
         ID=$(echo "${LINE}" | awk '{print $3}')
 	NUM_REGEX='[0-9]'
 	EMAIL=$(echo ${LINE} | awk '{print $2}')
-        EMAIL_REGEX='^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$'
+        EMAIL_REGEX='^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,3}$'
 
         if  [[ ${ID} =~ ${NUM_REGEX} ]] && [[ ${ID} -ne " " ]] && [[ ${EMAIL} =~ ${EMAIL_REGEX} ]]
         then
